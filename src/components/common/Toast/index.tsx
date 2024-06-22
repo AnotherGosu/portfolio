@@ -24,11 +24,11 @@ export const Toast = () => {
     >
       <div
         className={cn(
-          "absolute bottom-4 left-1/2 z-50 w-full max-w-xs -translate-x-1/2 transform rounded-lg p-2 text-center shadow-md",
+          "fixed bottom-4 left-1/2 z-50 w-full max-w-max -translate-x-1/2 transform rounded-lg p-2 text-center font-medium shadow-md",
           {
             "hidden": !status,
-            "bg-green-300": status === "success",
-            "bg-red-300": status === "error",
+            "bg-green-200": status === "success",
+            "bg-red-200": status === "error",
           },
         )}
       >

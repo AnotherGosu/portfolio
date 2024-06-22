@@ -3,6 +3,8 @@ import { Inter } from "next/font/google";
 
 import { StoreProvider } from "@/utils/provider";
 
+import { Toast } from "@/components/common/Toast";
+
 import { Footer } from "./components/Footer";
 import { Header } from "./components/Header";
 
@@ -29,6 +31,8 @@ export default function RootLayout({
 
             <Footer />
           </div>
+
+          <Toast />
         </StoreProvider>
       </body>
     </html>

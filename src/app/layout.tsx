@@ -5,7 +5,6 @@ import { StoreProvider } from "@/utils/provider";
 
 import { Toast } from "@/components/common/Toast";
 
-import { Footer } from "./components/Footer";
 import { Header } from "./components/Header";
 
 import "./globals.css";
@@ -24,12 +23,10 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${inter.className} antialiased`}>
         <StoreProvider>
-          <div className="grid min-h-dvh grid-rows-[max-content_1fr_max-content] gap-4 p-4">
+          <div className="grid min-h-dvh grid-rows-[max-content_1fr] gap-4 p-4">
             <Header />
 
             {children}
-
-            <Footer />
           </div>
 
           <Toast />

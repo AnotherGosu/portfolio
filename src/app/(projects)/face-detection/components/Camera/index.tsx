@@ -15,7 +15,7 @@ export const Camera = () => {
   const { detections } = useDetections({ cameraRef, faceDetectorRef });
 
   return (
-    <div className="relative">
+    <div className="relative overflow-hidden">
       <video
         ref={cameraRef}
         autoPlay
@@ -23,10 +23,10 @@ export const Camera = () => {
         className="scale-x-[-1]"
       />
 
-      <Highlighter
+      {/* <Highlighter
         cameraRef={cameraRef}
         detections={detections}
-      />
+      /> */}
 
       <Markers
         cameraRef={cameraRef}

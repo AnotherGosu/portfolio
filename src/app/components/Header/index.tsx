@@ -1,16 +1,16 @@
-import Link from "next/link";
+import { GitHubLink } from "./components/GitHubLink";
+import { HomeLink } from "./components/HomeLink";
+import { PageTitle } from "./components/PageTitle";
 
 export const Header = () => {
   return (
-    <header className="flex items-center justify-center">
-      <h1 className="text-2xl font-bold">
-        <Link
-          href="/"
-          className="focus-ring"
-        >
-          Playground
-        </Link>
-      </h1>
+    <header className="flex items-center justify-between">
+      <div className="flex items-center gap-2">
+        <HomeLink />
+        <PageTitle />
+      </div>
+
+      <GitHubLink />
     </header>
   );
 };

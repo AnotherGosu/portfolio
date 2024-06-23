@@ -10,14 +10,8 @@ export default function Page() {
       />
 
       <Card
-        href="/landing"
-        title="Landing"
-        description="Landing site example"
-      />
-
-      <Card
-        href="/email"
-        title="Email"
+        href="/email-template"
+        title="Email Template"
         description="Email template built with React Email"
       />
     </main>

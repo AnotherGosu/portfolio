@@ -15,7 +15,7 @@ export const CopyButton = ({ html }: CopyButtonProps) => {
     <button
       type="button"
       onClick={onCopy}
-      className="mb-2 flex items-center justify-center gap-1 rounded-md bg-black px-2 py-1 text-sm text-white"
+      className="focus-ring flex items-center justify-center gap-1 rounded-md border border-black bg-black px-2 py-1 text-sm text-white hover:bg-white hover:text-black"
     >
       <DocumentDuplicateIcon className="size-4" />
       Copy HTML

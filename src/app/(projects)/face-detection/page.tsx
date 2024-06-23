@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 
 import { Camera } from "./components/Camera";
+import { InfoButton } from "./components/InfoButton";
 
 export const metadata: Metadata = {
   title: "Face Detection",
@@ -9,8 +10,8 @@ export const metadata: Metadata = {
 
 export default function Page() {
   return (
-    <main className="flex flex-col items-center justify-center">
-      <h2 className="mb-4 text-xl font-semibold">Face Detection</h2>
+    <main className="relative flex flex-col items-center justify-center">
+      <InfoButton />
 
       <Camera />
     </main>

@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 
-import { useStore } from "@/hooks/useStore";
+import { useStore } from "@/hooks";
 
 export const useToast = () => {
   const { status, message } = useStore((state) => state.toast);

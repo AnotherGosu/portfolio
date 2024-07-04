@@ -12,8 +12,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: { default: "Playground", template: "Playground • %s" },
-  description: "Playgroud for pet-projects",
+  title: "Portfolio",
+  description: "Personal portfolio website",
 };
 
 export default function RootLayout({

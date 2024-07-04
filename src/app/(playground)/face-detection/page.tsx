@@ -4,7 +4,7 @@ import { Camera } from "./components/Camera";
 import { InfoButton } from "./components/InfoButton";
 
 export const metadata: Metadata = {
-  title: "Face Detection",
+  title: "Playground • Face Detection",
   description: "Face detection built with Media Pipe",
 };
 

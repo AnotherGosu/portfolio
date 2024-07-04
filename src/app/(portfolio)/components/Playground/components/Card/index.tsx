@@ -14,7 +14,7 @@ export const Card = ({ title, description, href }: CardProps) => {
     >
       <h2 className="text-lg font-semibold">{title}</h2>
 
-      <p className="text-slate-500">{description}</p>
+      <p className="text-sm text-slate-500">{description}</p>
     </Link>
   );
 };

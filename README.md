@@ -1,3 +1,3 @@
-# Playground
+# Portfolio
 
-Playground for pet-projects
+Personal portfolio website

@@ -7,7 +7,7 @@ export const usePageTitle = () => {
 
   const route = NAVIGATION.find(({ href }) => href === pathname);
 
-  const title = route?.title || "Playground";
+  const title = route?.title || "Portfolio";
 
   return { title };
 };

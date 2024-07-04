@@ -7,7 +7,7 @@ import { Preview } from "./components/Preview";
 import { Template } from "./components/Template";
 
 export const metadata: Metadata = {
-  title: "Email Template",
+  title: "Playground • Email Template",
   description: "Email template built with React Email",
 };
 

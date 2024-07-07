@@ -1,7 +1,7 @@
 export const GitHubLink = () => {
   return (
     <a
-      href="https://github.com/AnotherGosu/playground"
+      href="https://github.com/AnotherGosu/portfolio"
       target="_blank"
       className="focus-ring rounded-full hover:bg-purple-400"
     >

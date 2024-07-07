@@ -1,10 +1,14 @@
 export const NAVIGATION = [
   {
-    href: "/face-detection",
-    title: "Face Detection",
+    href: "/to-do",
+    title: "To Do",
   },
   {
     href: "/email-template",
     title: "Email Template",
+  },
+  {
+    href: "/face-detection",
+    title: "Face Detection",
   },
 ];

@@ -7,15 +7,21 @@ export const Playground = () => {
 
       <div className="grid gap-4 rounded-md border border-slate-200 p-4 md:grid-cols-2 lg:grid-cols-3">
         <Card
-          href="/face-detection"
-          title="Face Detection"
-          description="Face detection built with Media Pipe"
+          href="/to-do"
+          title="To Do"
+          description="To Do app built with Zustand"
         />
 
         <Card
           href="/email-template"
           title="Email Template"
           description="Email template built with React Email"
+        />
+
+        <Card
+          href="/face-detection"
+          title="Face Detection"
+          description="Face detection built with Media Pipe"
         />
       </div>
     </div>

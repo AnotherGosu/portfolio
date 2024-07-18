@@ -1,14 +1,18 @@
 export const NAVIGATION = [
   {
-    href: "/to-do",
+    href: "/",
+    title: "Portfolio",
+  },
+  {
+    href: "/playground/to-do",
     title: "To Do",
   },
   {
-    href: "/email-template",
+    href: "/playground/email-template",
     title: "Email Template",
   },
   {
-    href: "/face-detection",
+    href: "/playground/face-detection",
     title: "Face Detection",
   },
 ];

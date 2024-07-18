@@ -1,20 +1,32 @@
+import Image from "next/image";
+
+import expirienceImg from "@/images/experience.svg";
+
+import { Card } from "@/components/common/Card";
+
 export const Experience = () => {
   return (
-    <section>
-      <h2 className="mb-4 text-lg font-semibold uppercase">
-        Professional Experience
-      </h2>
+    <section className="relative grid grid-cols-1 lg:grid-cols-2 lg:gap-6">
+      <div className="h-max lg:sticky lg:top-5">
+        <h2 className="mb-8 w-max rounded-2xl bg-indigo-500 px-3 py-0.5 font-semibold uppercase text-white">
+          Professional Experience
+        </h2>
 
-      <div className="flex flex-col gap-8 md:gap-4">
-        <article className="grid md:grid-cols-2">
-          <div className="mb-2 md:mb-0">
-            <h3 className="font-medium">Full-Stack Web Developer</h3>
-            <p className="text-sm font-light">
-              <i>Chowis</i> | South Korea, Jan 2023 - Present
-            </p>
-          </div>
+        <Image
+          src={expirienceImg}
+          alt="Professional Experience"
+          height={250}
+          className="hidden lg:block"
+        />
+      </div>
 
-          <ul className="list-disc pl-4 leading-relaxed md:pl-0">
+      <div className="flex flex-col gap-6">
+        <Card
+          title="Full-Stack Web Developer"
+          subtitle="Chowis | South Korea, Jan 2023 - Present"
+          className="border border-b-[3px] border-r-[3px] border-indigo-400"
+        >
+          <ul className="list-disc pl-4 leading-loose">
             <li>
               Developed and maintained web applications using Next.js and
               TypeScript, ensuring high performance and responsiveness
@@ -34,17 +46,14 @@ export const Experience = () => {
 
             <li>Managed deployment and testing CI/CD processes using Vercel</li>
           </ul>
-        </article>
+        </Card>
 
-        <article className="grid md:grid-cols-2">
-          <div className="mb-2 md:mb-0">
-            <h3 className="font-medium">Front-End Web Developer</h3>
-            <p className="text-sm font-light">
-              <i>Emex</i> | Russia, Nov 2021 - Apr 2022
-            </p>
-          </div>
-
-          <ul className="list-disc pl-4 leading-relaxed md:pl-0">
+        <Card
+          title="Front-End Web Developer"
+          subtitle="Emex  | Russia, Nov 2021 - Apr 2022"
+          className="border border-b-[3px] border-r-[3px] border-indigo-400"
+        >
+          <ul className="list-disc pl-4 leading-loose">
             <li>
               Developed e-commerce platform using React and Typescript, handling
               state management in complicated checkout flow with Redux
@@ -60,7 +69,7 @@ export const Experience = () => {
               recorded important metrics and issues with PostHog
             </li>
           </ul>
-        </article>
+        </Card>
       </div>
     </section>
   );

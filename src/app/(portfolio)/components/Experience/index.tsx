@@ -3,14 +3,13 @@ import Image from "next/image";
 import expirienceImg from "@/images/experience.svg";
 
 import { Card } from "@/components/common/Card";
+import { Heading } from "@/components/common/Heading";
 
 export const Experience = () => {
   return (
     <section className="relative grid grid-cols-1 lg:grid-cols-2 lg:gap-6">
       <div className="h-max lg:sticky lg:top-5">
-        <h2 className="mb-8 w-max rounded-2xl bg-indigo-500 px-3 py-0.5 font-semibold uppercase text-white">
-          Professional Experience
-        </h2>
+        <Heading>Professional Experience</Heading>
 
         <Image
           src={expirienceImg}

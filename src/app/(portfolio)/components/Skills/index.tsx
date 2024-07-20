@@ -6,13 +6,12 @@ import {
 } from "@heroicons/react/24/outline";
 
 import { Card } from "@/components/common/Card";
+import { Heading } from "@/components/common/Heading";
 
 export const Skills = () => {
   return (
     <section>
-      <h2 className="mb-8 w-max rounded-2xl bg-indigo-500 px-3 py-0.5 font-semibold uppercase text-white">
-        Skills
-      </h2>
+      <Heading>Skills</Heading>
 
       <div className="grid grid-cols-1 grid-rows-4 gap-6 md:grid-cols-2 md:grid-rows-2">
         <Card

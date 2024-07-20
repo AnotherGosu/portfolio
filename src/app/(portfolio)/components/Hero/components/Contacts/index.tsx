@@ -1,5 +1,5 @@
-import { GitHubIcon } from "@/components/icons/GitHubIcon";
-import { LinkedInIcon } from "@/components/icons/LinkedInIcon";
+import { GitHubIcon } from "./components/GitHubIcon";
+import { LinkedInIcon } from "./components/LinkedInIcon";
 
 export const Contacts = () => {
   return (

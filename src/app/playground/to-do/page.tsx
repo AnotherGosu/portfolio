@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 
 export default function Page() {
   return (
-    <main className="max-h-[calc(100dvh-86px)]">
+    <main className="h-full">
       <TaskContainer />
     </main>
   );

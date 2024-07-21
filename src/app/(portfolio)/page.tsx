@@ -12,15 +12,15 @@ export default function Page() {
 
       <Divider />
 
-      <Skills />
-
-      <Experience />
-
-      <Divider />
-
       <Projects />
 
       <Playground />
+
+      <Divider />
+
+      <Skills />
+
+      <Experience />
     </main>
   );
 }

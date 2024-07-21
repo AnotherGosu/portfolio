@@ -20,7 +20,7 @@ export const Hero = () => {
         <Image
           src={programmingImg}
           alt="Programming"
-          height={300}
+          priority
           className="h-[200px] lg:h-[300px]"
         />
       </div>

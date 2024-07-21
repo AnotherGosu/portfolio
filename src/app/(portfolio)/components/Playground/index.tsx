@@ -5,9 +5,13 @@ import { Card } from "./components/Card";
 export const Playground = () => {
   return (
     <section>
-      <Heading>Playground</Heading>
+      <div className="mb-8 flex items-center gap-4">
+        <Heading className="mb-0">Playground</Heading>
 
-      <div className="grid gap-4 rounded-md border border-slate-200 p-4 md:grid-cols-2 lg:grid-cols-3">
+        <p className="text-slate-500">Hand-crafted tech examples</p>
+      </div>
+
+      <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
         <Card
           href="/playground/to-do"
           title="To Do"

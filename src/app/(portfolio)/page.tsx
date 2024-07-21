@@ -2,6 +2,7 @@ import { Divider } from "./components/Divider";
 import { Experience } from "./components/Experience";
 import { Hero } from "./components/Hero";
 import { Playground } from "./components/Playground";
+import { Projects } from "./components/Projects";
 import { Skills } from "./components/Skills";
 
 export default function Page() {
@@ -16,6 +17,8 @@ export default function Page() {
       <Experience />
 
       <Divider />
+
+      <Projects />
 
       <Playground />
     </main>

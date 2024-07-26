@@ -20,7 +20,7 @@ export const Button = ({
       className={cn(
         "focus-ring flex select-none items-center justify-center gap-1 rounded-md p-1",
         {
-          "bg-indigo-500 text-white hover:bg-indigo-500/80 active:bg-indigo-500/60":
+          "bg-indigo-500 text-white hover:bg-indigo-600 active:bg-indigo-600/80":
             variant === "primary",
           "bg-slate-200 hover:bg-slate-300 active:bg-slate-300/80":
             variant === "secondary",

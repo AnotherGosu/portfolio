@@ -1,0 +1,81 @@
+{
+  "portfolio": {
+    "hero": {
+      "sub_heading": "Front-End Web Developer",
+      "description": "Highly skilled Front-End Web Developer with a strong focus on modern front-end and back-end technologies. Proficient in building robust, scalable web applications, following best practices and bringing best user experience to customers. Adaptive to any workflow and technological stack, with a good sense of responsibility and passion for solving challenging problems."
+    },
+    "projects": {
+      "heading": "Projects",
+      "description": "Self-made side projects",
+      "card_1": {
+        "title": "Korean Course",
+        "description": "Landing page promoting course for Korean language"
+      }
+    },
+    "playground": {
+      "heading": "Playground",
+      "description": "Hand-crafted tech examples",
+      "card_1": {
+        "title": "To Do",
+        "description": "To Do app built with Zustand"
+      },
+      "card_2": {
+        "title": "Email Template",
+        "description": "Email template built with React Email"
+      },
+      "card_3": {
+        "title": "Face Detection",
+        "description": "Face detection built with Media Pipe"
+      }
+    },
+    "skills": {
+      "heading": "Skills",
+      "card_1": {
+        "title": "Front-End"
+      },
+      "card_2": {
+        "title": "Back-End"
+      },
+      "card_3": {
+        "title": "Tools & Platforms"
+      },
+      "card_4": {
+        "title": "Education",
+        "item_1": "Bachelor`s degree with honors in Computer Security (Pacific National University)",
+        "item_2": "TOPIK 4 (Kyungbok University language school)"
+      }
+    },
+    "experience": {
+      "heading": "Professional Expirience",
+      "card_1": {
+        "title": "Full-Stack Web Developer",
+        "description": "Chowis | South Korea, Jan 2023 - Present",
+        "item_1": "Developed and maintained web applications using Next.js and TypeScript, ensuring high performance and responsiveness",
+        "item_2": "Designed and developed RESTful APIs with Nest.js, ensuring secure and efficient communication between front-end and back-end services",
+        "item_3": "Implemented real-time face tracking features using MediaPipe",
+        "item_4": "Integrated PayPal for payment processing",
+        "item_5": "Managed deployment and testing CI/CD processes using Vercel"
+      },
+      "card_2": {
+        "title": "Front-End Web Developer",
+        "description": "Emex | Russia, Nov 2021 - Apr 2022",
+        "item_1": "Developed e-commerce platform using React and Typescript, handling state management in complicated checkout flow with Redux",
+        "item_2": "Implemented server-side rendering (SSR) and static site generation (SSG) in Next.js for improved SEO and performance",
+        "item_3": "Managed deployment and testing processes using Azure DevOps, recorded important metrics and issues with PostHog"
+      }
+    },
+    "footer": {
+      "sub_heading": "Front-End Web Developer",
+      "social": "Social",
+      "contact": "Contact"
+    }
+  },
+  "playground": {
+    "email_template": {
+      "button_copy_html": "Copy HTML"
+    },
+    "to_do": {
+      "button_add_task": "Add Task"
+    }
+  }
+}

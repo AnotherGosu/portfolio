@@ -6,6 +6,10 @@
   .focus-ring {
     @apply transition focus:outline-none focus:ring-2 focus:ring-blue-300;
   }
+
+  .loader {
+    @apply animate-pulse rounded-md bg-indigo-200;
+  }
 }
 
 @layer utilities {

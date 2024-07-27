@@ -14,7 +14,7 @@ interface FooterProps {
 export const Footer = ({ dict }: FooterProps) => {
   return (
     <footer className="bg-indigo-500 p-4 text-white">
-      <div className="mx-auto flex w-full max-w-5xl justify-between gap-4">
+      <div className="mx-auto flex w-full max-w-5xl flex-col justify-between gap-4 md:flex-row">
         <h3>
           <div className="mb-2 text-lg font-semibold">Maksim Dubinin</div>
           <div>{dict.portfolio.footer.sub_heading}</div>

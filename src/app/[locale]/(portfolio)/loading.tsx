@@ -16,13 +16,11 @@ export default function Loading() {
         </div>
 
         <div className="flex flex-col-reverse gap-8 md:flex-row">
-          <div className="loader h-[256px] grow lg:h-[148px]" />
-          <div className="loader mx-auto h-[200px] w-[275px] lg:h-[300px] lg:w-[412px]" />
+          <div className="loader h-[300px] grow lg:h-[148px]" />
+          <div className="loader mx-auto h-[200px] w-[275px] rounded-full lg:h-[300px] lg:w-[412px]" />
         </div>
       </div>
       {/* Hero */}
-
-      <div className="h-[1px] bg-slate-200" />
 
       {/* Projects */}
       <div>
@@ -52,17 +50,15 @@ export default function Loading() {
       </div>
       {/* Playground */}
 
-      <div className="h-[1px] bg-slate-200" />
-
       {/* Skills */}
       <div>
         <div className="loader mb-8 h-[28px] w-[78px] rounded-2xl" />
 
-        <div className="grid grid-cols-1 grid-rows-4 gap-6 md:grid-cols-2 md:grid-rows-2">
+        <div className="grid-rows-auto grid grid-cols-1 gap-6 md:grid-cols-2">
           <div className="loader h-[237px]" />
           <div className="loader h-[237px]" />
-          <div className="loader h-[237px]" />
-          <div className="loader h-[237px]" />
+          <div className="loader h-[205px]" />
+          <div className="loader h-[205px]" />
         </div>
       </div>
       {/* Skills */}

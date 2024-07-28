@@ -19,7 +19,7 @@ export const Skills = ({ dict }: SkillsProps) => {
     <section>
       <Heading>{dict.portfolio.skills.heading}</Heading>
 
-      <div className="grid grid-cols-1 grid-rows-4 gap-6 md:grid-cols-2 md:grid-rows-2">
+      <div className="grid-rows-auto grid grid-cols-1 gap-6 md:grid-cols-2">
         <Card
           title={dict.portfolio.skills.card_1.title}
           icon={<TvIcon className="size-7" />}

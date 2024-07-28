@@ -5,9 +5,7 @@ export const usePageTitle = () => {
 
   const [_, locale, ...routes] = pathname.split("/");
 
-  const crumbs = routes.map((route) => route.replace("-", " "));
-
-  const title = crumbs.join(" / ") || "Portfolio";
+  const title = routes.pop()?.replace("-", " ") || "Portfolio";
 
   return { title };
 };

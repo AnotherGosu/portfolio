@@ -15,7 +15,7 @@ export const Playground = ({ locale, dict }: PlaygroundProps) => {
       <div className="mb-8 flex items-center gap-4">
         <Heading className="mb-0">{dict.portfolio.playground.heading}</Heading>
 
-        <p className="text-slate-500">
+        <p className="text-sm text-slate-500 md:text-base">
           {dict.portfolio.playground.description}
         </p>
       </div>

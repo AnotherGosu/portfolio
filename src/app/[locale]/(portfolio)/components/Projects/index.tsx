@@ -16,7 +16,9 @@ export const Projects = ({ dict }: ProjectsProps) => {
       <div className="mb-8 flex items-center gap-4">
         <Heading className="mb-0">{dict.portfolio.projects.heading}</Heading>
 
-        <p className="text-slate-500">{dict.portfolio.projects.description}</p>
+        <p className="text-sm text-slate-500 md:text-base">
+          {dict.portfolio.projects.description}
+        </p>
       </div>
 
       <div className="grid grid-cols-1 gap-6 lg:grid-cols-2">

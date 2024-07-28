@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 
 export default function Page() {
   return (
-    <main className="flex h-full items-center justify-center">
+    <main className="relative flex h-full flex-col items-center justify-center">
       <Camera />
     </main>
   );

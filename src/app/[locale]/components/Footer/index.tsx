@@ -14,13 +14,13 @@ interface FooterProps {
 export const Footer = ({ dict }: FooterProps) => {
   return (
     <footer className="bg-indigo-500 p-4 text-white">
-      <div className="mx-auto flex w-full max-w-5xl flex-col justify-between gap-4 md:flex-row">
-        <h3>
+      <div className="mx-auto flex w-full max-w-5xl flex-wrap justify-between gap-x-8">
+        <h3 className="grow">
           <div className="mb-2 text-lg font-semibold">Maksim Dubinin</div>
           <div>{dict.portfolio.footer.sub_heading}</div>
         </h3>
 
-        <div>
+        <div className="grow">
           <h3 className="mb-2 text-lg font-semibold">
             {dict.portfolio.footer.social}
           </h3>

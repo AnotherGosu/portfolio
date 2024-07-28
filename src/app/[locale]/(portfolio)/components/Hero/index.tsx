@@ -39,7 +39,9 @@ export const Hero = ({ dict }: HeroProps) => {
       </div>
 
       <div className="flex flex-col-reverse gap-8 md:flex-row">
-        <p className="leading-loose">{dict.portfolio.hero.description}</p>
+        <p className="h-[300px] leading-loose">
+          {dict.portfolio.hero.description}
+        </p>
 
         <Image
           src={programmingImg}

@@ -1,5 +1,7 @@
 "use client";
 
+import { Loader } from "@/components/common/Loader";
+
 import { Markers } from "./components/Markers";
 
 import { useCamera } from "./hooks/useCamera";
@@ -14,8 +16,12 @@ export const Camera = () => {
   const { detections } = useDetections({ cameraRef, faceDetectorRef });
 
   return (
-    <div className="relative h-[240px] w-[320px] overflow-hidden rounded-md border-4 border-indigo-500 sm:h-[320px] sm:w-[425px] md:h-[480px] md:w-[640px]">
-      <div className="loader absolute h-full w-full" />
+    <div className="relative overflow-hidden">
+      {!cameraRef.current && (
+        <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 transform">
+          <Loader />
+        </div>
+      )}
 
       <video
         ref={cameraRef}

@@ -1,6 +1,5 @@
 import { getDictionary, Locale } from "@/utils/localization";
 
-import { Divider } from "./components/Divider";
 import { Experience } from "./components/Experience";
 import { Hero } from "./components/Hero";
 import { Playground } from "./components/Playground";
@@ -18,16 +17,12 @@ export default async function Page({ params: { locale } }: PageProps) {
     <main className="mx-auto flex w-full max-w-5xl flex-col gap-16">
       <Hero dict={dict} />
 
-      <Divider />
-
       <Projects dict={dict} />
 
       <Playground
         locale={locale}
         dict={dict}
       />
-
-      <Divider />
 
       <Skills dict={dict} />
 

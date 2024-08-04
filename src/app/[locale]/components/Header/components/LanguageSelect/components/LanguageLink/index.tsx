@@ -21,6 +21,7 @@ export const LanguageLink = ({ title, locale }: LanguageLinkProps) => {
         "font-medium": locale === currentLocale,
         "hover:underline": locale !== currentLocale,
       })}
+      scroll={false}
     >
       {title}
     </Link>

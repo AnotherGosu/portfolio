@@ -17,13 +17,11 @@ export const Footer = ({ dict }: FooterProps) => {
       <div className="mx-auto flex w-full max-w-5xl flex-wrap justify-between gap-x-8">
         <h3 className="grow">
           <div className="mb-2 text-lg font-semibold">Maksim Dubinin</div>
-          <div>{dict.portfolio.footer.sub_heading}</div>
+          <div>{dict.footer.sub_heading}</div>
         </h3>
 
         <div className="grow">
-          <h3 className="mb-2 text-lg font-semibold">
-            {dict.portfolio.footer.social}
-          </h3>
+          <h3 className="mb-2 text-lg font-semibold">{dict.footer.social}</h3>
 
           <ul className="text-sm leading-loose">
             <li>
@@ -43,9 +41,7 @@ export const Footer = ({ dict }: FooterProps) => {
         </div>
 
         <div>
-          <h3 className="mb-2 text-lg font-semibold">
-            {dict.portfolio.footer.contact}
-          </h3>
+          <h3 className="mb-2 text-lg font-semibold">{dict.footer.contact}</h3>
 
           <ul className="text-sm">
             <li>

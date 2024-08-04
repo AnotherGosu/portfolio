@@ -2,9 +2,6 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 
 import { getDictionary, i18n, Locale } from "@/utils/localization";
-import { StoreProvider } from "@/utils/provider";
-
-import { Toast } from "@/components/common/Toast";
 
 import { Footer } from "./components/Footer";
 import { Header } from "./components/Header";
@@ -20,7 +17,17 @@ export async function generateStaticParams() {
 export const metadata: Metadata = {
   title: "Portfolio",
   description:
-    "Dubinin Maksim, Front-End Web Developer. Personal portfolio website.",
+    "Maksim Dubinin, Front-End Web Developer. Personal portfolio website.",
+  generator: "Next.js",
+  applicationName: "Portfolio",
+  keywords: ["Portfolio", "Front-End", "Web Development", "Maksim Dubinin"],
+  authors: { name: "Maksim Dubinin", url: "https://www.anothergosu.com" },
+  creator: "Maksim Dubinin",
+  publisher: "Maksim Dubinin",
+  openGraph: {
+    siteName: "Portfolio",
+    url: "https://www.anothergosu.com",
+  },
 };
 
 interface RootLayoutProps {
@@ -36,18 +43,10 @@ export default async function RootLayout({
 
   return (
     <html lang="en">
-      <body className={`${inter.className} antialiased`}>
-        <StoreProvider>
-          <div className="grid min-h-dvh grid-rows-[max-content_1fr_max-content] gap-4">
-            <Header />
-
-            <div className="p-4">{children}</div>
-
-            <Footer dict={dict} />
-          </div>
-
-          <Toast />
-        </StoreProvider>
+      <body className={`${inter.className} relative antialiased`}>
+        <Header />
+        {children}
+        <Footer dict={dict} />
       </body>
     </html>
   );

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Inter, Noto_Sans_KR } from "next/font/google";
 
+import { cn } from "@/utils/cn";
 import { getDictionary, i18n, Locale } from "@/utils/localization";
 
 import { Footer } from "./components/Footer";
@@ -9,6 +10,7 @@ import { Header } from "./components/Header";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
+const noto = Noto_Sans_KR({ subsets: ["latin"] });
 
 export async function generateStaticParams() {
   return i18n.locales.map((locale) => ({ locale }));
@@ -43,7 +45,12 @@ export default async function RootLayout({
 
   return (
     <html lang="en">
-      <body className={`${inter.className} relative antialiased`}>
+      <body
+        className={cn("relative antialiased", {
+          [inter.className]: locale === "en",
+          [noto.className]: locale === "ko",
+        })}
+      >
         <Header />
         {children}
         <Footer dict={dict} />

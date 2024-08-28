@@ -6,10 +6,14 @@
   "projects": {
     "heading": "Side Projects",
     "card_1": {
+      "title": "Fram",
+      "description": "Booking and hotel searching service"
+    },
+    "card_2": {
       "title": "Korean Course",
       "description": "Landing page promoting course for Korean language"
     },
-    "card_2": {
+    "card_3": {
       "title": "Playground",
       "description": "Hand-crafted tech examples"
     }

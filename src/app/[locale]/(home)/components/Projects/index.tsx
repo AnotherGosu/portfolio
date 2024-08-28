@@ -1,3 +1,4 @@
+import framImage from "@/images/fram.png";
 import koreanCourseImg from "@/images/korean-course.png";
 import playgroundImg from "@/images/playground.png";
 
@@ -22,13 +23,20 @@ export const Projects = ({ dict }: ProjectsProps) => {
         <Card
           title={dict.projects.card_1.title}
           description={dict.projects.card_1.description}
-          image={koreanCourseImg}
-          href="https://korean-course.vercel.app"
+          image={framImage}
+          href="https://fram-teamgosu.vercel.app"
         />
 
         <Card
           title={dict.projects.card_2.title}
           description={dict.projects.card_2.description}
+          image={koreanCourseImg}
+          href="https://korean-course.vercel.app"
+        />
+
+        <Card
+          title={dict.projects.card_3.title}
+          description={dict.projects.card_3.description}
           image={playgroundImg}
           href="https://playground-teamgosu.vercel.app"
         />

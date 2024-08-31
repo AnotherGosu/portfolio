@@ -17,19 +17,20 @@ export async function generateStaticParams() {
 }
 
 export const metadata: Metadata = {
-  title: "Portfolio",
-  description:
-    "Maksim Dubinin, Front-End Web Developer. Personal portfolio website.",
+  title: "Maksim Dubinin",
+  description: "Front-End Web Developer. Personal website.",
   generator: "Next.js",
-  applicationName: "Portfolio",
-  keywords: ["Portfolio", "Front-End", "Web Development", "Maksim Dubinin"],
+  applicationName: "Personal website",
+  keywords: [
+    "Maksim Dubinin",
+    "Personal Website",
+    "Front-End",
+    "Web Development",
+  ],
   authors: { name: "Maksim Dubinin", url: "https://www.anothergosu.com" },
   creator: "Maksim Dubinin",
   publisher: "Maksim Dubinin",
-  openGraph: {
-    siteName: "Portfolio",
-    url: "https://www.anothergosu.com",
-  },
+  openGraph: { siteName: "Maksim Dubinin", url: "https://www.anothergosu.com" },
 };
 
 interface RootLayoutProps {
@@ -44,7 +45,7 @@ export default async function RootLayout({
   const dict = await getDictionary(locale);
 
   return (
-    <html lang="en">
+    <html lang={locale}>
       <body
         className={cn("relative antialiased", {
           [inter.className]: locale === "en",

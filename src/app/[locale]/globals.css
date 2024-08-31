@@ -11,23 +11,3 @@
     @apply animate-pulse rounded-md bg-indigo-200;
   }
 }
-
-@layer utilities {
-  .scrollbar::-webkit-scrollbar {
-    width: 10px;
-  }
-
-  .scrollbar::-webkit-scrollbar-track {
-    border-radius: 100vh;
-    background: #f1f5f9;
-  }
-
-  .scrollbar::-webkit-scrollbar-thumb {
-    border-radius: 100vh;
-    background: #e2e8f0;
-  }
-
-  .scrollbar::-webkit-scrollbar-thumb:hover {
-    background: #cbd5e1;
-  }
-}

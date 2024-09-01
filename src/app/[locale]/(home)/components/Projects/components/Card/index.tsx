@@ -19,6 +19,7 @@ export const Card = ({ href, title, description, image }: CardProps) => {
         <Image
           src={image}
           alt={title}
+          placeholder="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mN88Pz/fwAJPAPHGezJpAAAAABJRU5ErkJggg=="
           className="h-[300px] object-cover object-bottom transition duration-200 ease-in group-hover:scale-125"
         />
       </div>

@@ -45,6 +45,19 @@
       "item_4": "<b>Azure DevOps</b>를 사용해 배포 및 테스트 워크플로우를 관리하고, <b>PostHog</b>로 중요한 지표와 이슈를 추적함"
     }
   },
+  "education": {
+    "heading": "학력",
+    "card_1": {
+      "title": "Pacific National University",
+      "description": "러시아 | 2016년 - 2022년",
+      "content": "컴퓨터 보안 학사"
+    },
+    "card_2": {
+      "title": "경복대학교",
+      "description": "대한민국 | 2022년",
+      "content": "한국어능력시험 4급"
+    }
+  },
   "footer": {
     "sub_heading": "프론트엔드 웹 개발자",
     "social": "소셜",

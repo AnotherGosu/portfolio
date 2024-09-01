@@ -1,5 +1,6 @@
 import { getDictionary, Locale } from "@/utils/localization";
 
+import { Education } from "./components/Education";
 import { Experience } from "./components/Experience";
 import { Hero } from "./components/Hero";
 import { Projects } from "./components/Projects";
@@ -18,6 +19,7 @@ export default async function Page({ params: { locale } }: PageProps) {
       <Projects dict={dict} />
       <Skills dict={dict} />
       <Experience dict={dict} />
+      <Education dict={dict} />
     </main>
   );
 }

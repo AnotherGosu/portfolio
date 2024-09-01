@@ -45,6 +45,19 @@
       "item_4": "Managed deployment and testing workflows using <b>Azure DevOps</b>, and tracked important metrics and issues with <b>PostHog</b>"
     }
   },
+  "education": {
+    "heading": "Education",
+    "card_1": {
+      "title": "Pacific National University",
+      "description": "Russia | 2016 - 2022",
+      "content": "Bachelor’s degree with honors in Computer Security"
+    },
+    "card_2": {
+      "title": "Kyungbok University",
+      "description": "South Korea | 2022",
+      "content": "TOPIK 4"
+    }
+  },
   "footer": {
     "sub_heading": "Front-End Web Developer",
     "social": "Social",

@@ -30,19 +30,19 @@
     "heading": "Professional Experience",
     "card_1": {
       "title": "Full-Stack Web Developer",
-      "description": "Chowis | South Korea, Jan 2023 - Present",
-      "item_1": "Developed and maintained web applications using Next.js and TypeScript, ensuring high performance and responsiveness",
-      "item_2": "Designed and developed RESTful APIs with Nest.js, ensuring secure and efficient communication between front-end and back-end services",
-      "item_3": "Implemented real-time face tracking features using MediaPipe",
-      "item_4": "Integrated PayPal for payment processing",
-      "item_5": "Managed deployment and testing CI/CD processes using Vercel"
+      "description": "Chowis | South Korea, 2023 - Present",
+      "item_1": "Developed a back-office web application using <b>Next.js</b> and <b>Typescript</b>, providing inventory control, customer management, statistics overview and other functionalities for the internal team",
+      "item_2": "Designed and developed RESTful APIs with <b>Nest.js</b>, <b>TypeORM</b> and <b>PostgreSQL</b>",
+      "item_3": "Ensured application stability by writing end-to-end and integration tests with <b>Cypress</b>",
+      "item_4": "Maintained the code base and managed CI/CD processes using <b>GitHub</b> and <b>Vercel</b>"
     },
     "card_2": {
       "title": "Front-End Web Developer",
-      "description": "Emex | Russia, Nov 2021 - Apr 2022",
-      "item_1": "Developed e-commerce platform using React and Typescript, handling state management in complicated checkout flow with Redux",
-      "item_2": "Implemented server-side rendering (SSR) and static site generation (SSG) in Next.js for improved SEO and performance",
-      "item_3": "Managed deployment and testing processes using Azure DevOps, recorded important metrics and issues with PostHog"
+      "description": "Emex | Russia, 2021 - 2022",
+      "item_1": "Developed an e-commerce platform using <b>Next.js</b> and <b>Typescript</b>, providing convenient browsing, searching and checkout processes to customers",
+      "item_2": "Implemented a smooth payment flow with <b>PayPal</b>, managing complex checkout state with <b>Redux</b>",
+      "item_3": "Ensured application stability by writing component unit tests with <b>Jest</b> and <b>React Testing Library</b>",
+      "item_4": "Managed deployment and testing workflows using <b>Azure DevOps</b>, and tracked important metrics and issues with <b>PostHog</b>"
     }
   },
   "footer": {

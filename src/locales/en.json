@@ -1,7 +1,7 @@
 {
   "hero": {
     "sub_heading": "Front-End Web Developer",
-    "description": "Highly skilled Front-End Web Developer with a strong focus on modern front-end and back-end technologies. Proficient in building robust, scalable web applications, following best practices and bringing best user experience to customers. Adaptive to any workflow and technological stack, with a good sense of responsibility and passion for solving challenging problems."
+    "description": "Front-end web developer with a solid understanding of modern web technologies. Adaptable to various workflows and tech stacks, with a strong sense of responsibility and a commitment to delivering the best possible product to customers"
   },
   "projects": {
     "heading": "Side Projects",
@@ -19,39 +19,43 @@
     }
   },
   "skills": {
-    "heading": "Skills",
-    "card_1": {
-      "title": "Front-End"
-    },
-    "card_2": {
-      "title": "Back-End"
-    },
-    "card_3": {
-      "title": "Tools & Platforms"
-    },
-    "card_4": {
-      "title": "Education",
-      "item_1": "Bachelor`s degree with honors in Computer Security (Pacific National University)",
-      "item_2": "TOPIK 4 (Kyungbok University language school)"
-    }
+    "heading": "Technical Skills",
+    "item_1": "Proficient in developing (<b>Next.js</b>, <b>TypeScript</b>) and testing (<b>Cypress</b>) web applications",
+    "item_2": "Experienced in utilizing the React ecosystem to solve state management (<b>Redux</b>, <b>Zustand</b>), form validation (<b>React Hook Form</b>), data fetching (<b>SWR</b>, <b>Axios</b>) and other common problems",
+    "item_3": "Proficient in using CSS frameworks (<b>Tailwind</b>, <b>Styled Components</b>) and UI component libraries (<b>Chakra UI</b>, <b>Material UI</b>)",
+    "item_4": "Experienced in writing RESTful APIs (<b>Nest.js</b>, <b>TypeORM</b>) and database maintenance (<b>PostgreSQL</b>)",
+    "item_5": "Experienced in version control systems (<b>Git</b>, <b>GitHub</b>), CI/CD workflows (<b>Vercel</b>, <b>Netlify</b>) and design tools (<b>Figma</b>)"
   },
   "experience": {
-    "heading": "Professional Expirience",
+    "heading": "Professional Experience",
     "card_1": {
       "title": "Full-Stack Web Developer",
-      "description": "Chowis | South Korea, Jan 2023 - Present",
-      "item_1": "Developed and maintained web applications using Next.js and TypeScript, ensuring high performance and responsiveness",
-      "item_2": "Designed and developed RESTful APIs with Nest.js, ensuring secure and efficient communication between front-end and back-end services",
-      "item_3": "Implemented real-time face tracking features using MediaPipe",
-      "item_4": "Integrated PayPal for payment processing",
-      "item_5": "Managed deployment and testing CI/CD processes using Vercel"
+      "description": "Chowis | South Korea, 2023 - Present",
+      "item_1": "Developed a back-office web application using <b>Next.js</b> and <b>Typescript</b>, providing inventory control, customer management, statistics overview and other functionalities for the internal team",
+      "item_2": "Designed and developed RESTful APIs with <b>Nest.js</b>, <b>TypeORM</b> and <b>PostgreSQL</b>",
+      "item_3": "Ensured application stability by writing end-to-end and integration tests with <b>Cypress</b>",
+      "item_4": "Maintained the code base and managed CI/CD processes using <b>GitHub</b> and <b>Vercel</b>"
     },
     "card_2": {
       "title": "Front-End Web Developer",
-      "description": "Emex | Russia, Nov 2021 - Apr 2022",
-      "item_1": "Developed e-commerce platform using React and Typescript, handling state management in complicated checkout flow with Redux",
-      "item_2": "Implemented server-side rendering (SSR) and static site generation (SSG) in Next.js for improved SEO and performance",
-      "item_3": "Managed deployment and testing processes using Azure DevOps, recorded important metrics and issues with PostHog"
+      "description": "Emex | Russia, 2021 - 2022",
+      "item_1": "Developed an e-commerce platform using <b>Next.js</b> and <b>Typescript</b>, providing convenient browsing, searching and checkout processes to customers",
+      "item_2": "Implemented a smooth payment flow with <b>PayPal</b>, managing complex checkout state with <b>Redux</b>",
+      "item_3": "Ensured application stability by writing component unit tests with <b>Jest</b> and <b>React Testing Library</b>",
+      "item_4": "Managed deployment and testing workflows using <b>Azure DevOps</b>, and tracked important metrics and issues with <b>PostHog</b>"
+    }
+  },
+  "education": {
+    "heading": "Education",
+    "card_1": {
+      "title": "Pacific National University",
+      "description": "Russia | 2016 - 2022",
+      "content": "Bachelor’s degree with honors in Computer Security"
+    },
+    "card_2": {
+      "title": "Kyungbok University",
+      "description": "South Korea | 2022",
+      "content": "TOPIK 4"
     }
   },
   "footer": {

@@ -1,7 +1,7 @@
 {
   "hero": {
     "sub_heading": "프론트엔드 웹 개발자",
-    "description": "최신 기술을 활용하는 고급 프론트엔드 웹 개발자입니다. 모범 사례를 따르고 고객에게 최고의 사용자 경험을 제공하면서 견고하고 확장 가능한 웹 애플리케이션을 구축하는 데 능숙합니다. 어떤 작업 흐름과 기술 스택에도 적응할 수 있으며, 책임감이 강하고 도전적인 문제를 해결하는 열정을 가지고 있습니다"
+    "description": "최신 웹 기술에 대한 탄탄한 이해를 가진 프론트엔드 웹 개발자입니다. 다양한 워크플로우와 기술 스택에 적응할 수 있으며, 높은 책임감을 가지고 고객에게 최상의 제품을 제공하기 위해 최선을 다합니다"
   },
   "projects": {
     "heading": "사이드 프로젝트",
@@ -19,39 +19,43 @@
     }
   },
   "skills": {
-    "heading": "스킬",
-    "card_1": {
-      "title": "프론트엔드"
-    },
-    "card_2": {
-      "title": "백엔드"
-    },
-    "card_3": {
-      "title": "도구 및 플랫폼"
-    },
-    "card_4": {
-      "title": "학력",
-      "item_1": "컴퓨터 보안 학사 (Pacific National University)",
-      "item_2": "한국어능력시험 4급 (경복대학교 어학원)"
-    }
+    "heading": "기술 스킬",
+    "item_1": "<b>Next.js</b>, <b>TypeScript</b>을 사용한 웹 애플리케이션 개발 및 <b>Cypress</b>를 사용한 테스트에 능숙함",
+    "item_2": "상태 관리(<b>Redux</b>, <b>Zustand</b>), 폼 유효성 검사(<b>React Hook Form</b>), 데이터 페칭(<b>SWR</b>, <b>Axios</b>) 및 기타 일반적인 문제 해결을 위해 React 생태계를 활용한 경험이 있음",
+    "item_3": "CSS 프레임워크(<b>Tailwind</b>, <b>Styled Components</b>)와 UI 컴포넌트 라이브러리(<b>Chakra UI</b>, <b>Material UI</b>) 사용에 능숙함",
+    "item_4": "RESTful API 작성(<b>Nest.js</b>, <b>TypeORM</b>) 및 데이터베이스 유지 관리(<b>PostgreSQL</b>) 경험이 있음",
+    "item_5": "버전 관리 시스템(<b>Git</b>, <b>GitHub</b>), CI/CD 워크플로우(<b>Vercel</b>, <b>Netlify</b>) 및 디자인 도구(<b>Figma</b>) 경험이 있음"
   },
   "experience": {
     "heading": "경력",
     "card_1": {
       "title": "풀스택 웹 개발자",
-      "description": "(주)초위스커퍼니 | 대한민국, 1월 2023년 - 현재",
-      "item_1": "TypeScript와 Next.js를 사용하여 높은 성능과 반응성을 보장하는 웹 애플리케이션을 개발 및 유지 관리했습니다",
-      "item_2": "Nest.js를 사용하여 RESTful API를 설계하고 개발하여 프론트엔드와 백엔드 서비스 간의 안전하고 효율적인 통신을 보장했습니다",
-      "item_3": "MediaPipe를 사용하여 실시간 얼굴 추적 기능을 구현했습니다",
-      "item_4": "결제 처리를 위해 PayPal을 통합했습니다",
-      "item_5": "Vercel을 사용하여 배포 및 테스트 CI/CD 프로세스를 관리했습니다"
+      "description": "(주)초위스커퍼니 | 대한민국, 2023년 - 현재",
+      "item_1": "<b>Next.js</b>와 <b>TypeScript</b>를 사용하여 재고 관리, 고객 관리, 통계 개요 등 내부 팀을 위한 다양한 기능을 제공하는 백오피스 웹 애플리케이션을 개발함",
+      "item_2": "<b>Nest.js</b>, <b>TypeORM</b>, <b>PostgreSQL</b>로 RESTful API를 설계 및 개발함",
+      "item_3": "<b>Cypress</b>로 엔드투엔드 및 통합 테스트를 작성하여 애플리케이션의 안정성을 보장함",
+      "item_4": "<b>GitHub</b>과 <b>Vercel</b>을 사용하여 코드베이스를 유지 관리하고 CI/CD 프로세스를 관리함"
     },
     "card_2": {
       "title": "프론트엔드 웹 개발자",
-      "description": "Emex | 러시아, 10월 2021년 - 4월 2022년",
-      "item_1": "React와 TypeScript를 사용하여 전자상거래 플랫폼을 개발하고, Redux로 결제 흐름의 상태 관리를 처리했습니다",
-      "item_2": "Next.js에서 서버 사이드 렌더링(SSR) 및 정적 사이트 생성(SSG)을 구현하여 SEO와 성능을 향상시켰습니다",
-      "item_3": "Azure DevOps를 사용하여 배포 및 테스트 프로세스를 관리하고, PostHog로 중요한 지표와 이슈를 기록했습니다"
+      "description": "Emex | 러시아, 2021년 - 2022년",
+      "item_1": "<b>Next.js</b>와 <b>TypeScript</b>를 사용하여 고객에게 편리한 브라우징, 검색 및 체크아웃 프로세스를 제공하는 전자상거래 플랫폼을 개발함",
+      "item_2": "<b>PayPal</b>을 사용해 원활한 결제 흐름을 구현하고, <b>Redux</b>로 복잡한 체크아웃 상태를 관리함",
+      "item_3": "<b>Jest</b>와 <b>React Testing Library</b>로 컴포넌트 단위 테스트를 작성하여 애플리케이션의 안정성을 보장함",
+      "item_4": "<b>Azure DevOps</b>를 사용해 배포 및 테스트 워크플로우를 관리하고, <b>PostHog</b>로 중요한 지표와 이슈를 추적함"
+    }
+  },
+  "education": {
+    "heading": "학력",
+    "card_1": {
+      "title": "Pacific National University",
+      "description": "러시아 | 2016년 - 2022년",
+      "content": "컴퓨터 보안 학사"
+    },
+    "card_2": {
+      "title": "경복대학교",
+      "description": "대한민국 | 2022년",
+      "content": "한국어능력시험 4급"
     }
   },
   "footer": {

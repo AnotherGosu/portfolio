@@ -19,21 +19,12 @@
     }
   },
   "skills": {
-    "heading": "스킬",
-    "card_1": {
-      "title": "프론트엔드"
-    },
-    "card_2": {
-      "title": "백엔드"
-    },
-    "card_3": {
-      "title": "도구 및 플랫폼"
-    },
-    "card_4": {
-      "title": "학력",
-      "item_1": "컴퓨터 보안 학사 (Pacific National University)",
-      "item_2": "한국어능력시험 4급 (경복대학교 어학원)"
-    }
+    "heading": "기술 스킬",
+    "item_1": "<b>Next.js</b>, <b>TypeScript</b>을 사용한 웹 애플리케이션 개발 및 <b>Cypress</b>를 사용한 테스트에 능숙함",
+    "item_2": "상태 관리(<b>Redux</b>, <b>Zustand</b>), 폼 유효성 검사(<b>React Hook Form</b>), 데이터 페칭(<b>SWR</b>, <b>Axios</b>) 및 기타 일반적인 문제 해결을 위해 React 생태계를 활용한 경험이 있음",
+    "item_3": "CSS 프레임워크(<b>Tailwind</b>, <b>Styled Components</b>)와 UI 컴포넌트 라이브러리(<b>Chakra UI</b>, <b>Material UI</b>) 사용에 능숙함",
+    "item_4": "RESTful API 작성(<b>Nest.js</b>, <b>TypeORM</b>) 및 데이터베이스 유지 관리(<b>PostgreSQL</b>) 경험이 있음",
+    "item_5": "버전 관리 시스템(<b>Git</b>, <b>GitHub</b>), CI/CD 워크플로우(<b>Vercel</b>, <b>Netlify</b>) 및 디자인 도구(<b>Figma</b>) 경험이 있음"
   },
   "experience": {
     "heading": "경력",

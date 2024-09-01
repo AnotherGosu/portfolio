@@ -1,7 +1,7 @@
 import { cn } from "@/utils/cn";
 
 interface CardProps {
-  title: string;
+  title?: string;
   children: React.ReactNode;
   icon?: React.ReactNode;
   subtitle?: string | React.ReactNode;

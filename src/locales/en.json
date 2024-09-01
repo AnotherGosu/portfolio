@@ -19,24 +19,15 @@
     }
   },
   "skills": {
-    "heading": "Skills",
-    "card_1": {
-      "title": "Front-End"
-    },
-    "card_2": {
-      "title": "Back-End"
-    },
-    "card_3": {
-      "title": "Tools & Platforms"
-    },
-    "card_4": {
-      "title": "Education",
-      "item_1": "Bachelor`s degree with honors in Computer Security (Pacific National University)",
-      "item_2": "TOPIK 4 (Kyungbok University language school)"
-    }
+    "heading": "Technical Skills",
+    "item_1": "Proficient in developing (<b>Next.js</b>, <b>TypeScript</b>) and testing (<b>Cypress</b>) web applications",
+    "item_2": "Experienced in utilizing the React ecosystem to solve state management (<b>Redux</b>, <b>Zustand</b>), form validation (<b>React Hook Form</b>), data fetching (<b>SWR</b>, <b>Axios</b>) and other common problems",
+    "item_3": "Proficient in using CSS frameworks (<b>Tailwind</b>, <b>Styled Components</b>) and UI component libraries (<b>Chakra UI</b>, <b>Material UI</b>)",
+    "item_4": "Experienced in writing RESTful APIs (<b>Nest.js</b>, <b>TypeORM</b>) and database maintenance (<b>PostgreSQL</b>)",
+    "item_5": "Experienced in version control systems (<b>Git</b>, <b>GitHub</b>), CI/CD workflows (<b>Vercel</b>, <b>Netlify</b>) and design tools (<b>Figma</b>)"
   },
   "experience": {
-    "heading": "Professional Expirience",
+    "heading": "Professional Experience",
     "card_1": {
       "title": "Full-Stack Web Developer",
       "description": "Chowis | South Korea, Jan 2023 - Present",

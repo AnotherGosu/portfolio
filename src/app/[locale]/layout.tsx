@@ -9,8 +9,17 @@ import { Header } from "./components/Header";
 
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
-const noto = Noto_Sans_KR({ subsets: ["latin"] });
+const inter = Inter({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-inter",
+});
+
+const noto = Noto_Sans_KR({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-noto",
+});
 
 export async function generateStaticParams() {
   return i18n.locales.map((locale) => ({ locale }));
@@ -18,15 +27,10 @@ export async function generateStaticParams() {
 
 export const metadata: Metadata = {
   title: "Maksim Dubinin",
-  description: "Front-End Web Developer. Personal website.",
+  description: "Web Developer. Personal portfolio website.",
   generator: "Next.js",
-  applicationName: "Personal website",
-  keywords: [
-    "Maksim Dubinin",
-    "Personal Website",
-    "Front-End",
-    "Web Development",
-  ],
+  applicationName: "Personal portfolio website",
+  keywords: ["Maksim Dubinin", "Personal Portfolio Website", "Web Development"],
   authors: { name: "Maksim Dubinin", url: "https://www.anothergosu.com" },
   creator: "Maksim Dubinin",
   publisher: "Maksim Dubinin",
@@ -49,10 +53,10 @@ export default async function RootLayout({
   return (
     <html lang={locale}>
       <body
-        className={cn("relative antialiased", {
-          [inter.className]: locale === "en",
-          [noto.className]: locale === "ko",
-        })}
+        className={cn(
+          `relative antialiased ${inter.variable} ${noto.variable} font-inter`,
+          { "font-noto": locale === "ko" },
+        )}
       >
         <Header />
         {children}

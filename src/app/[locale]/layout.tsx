@@ -34,14 +34,16 @@ export const metadata: Metadata = {
 };
 
 interface RootLayoutProps {
-  params: { locale: Locale };
+  params: Promise<{ locale: Locale }>;
   children: React.ReactNode;
 }
 
 export default async function RootLayout({
-  params: { locale },
+  params,
   children,
 }: RootLayoutProps) {
+  const { locale } = await params;
+
   const dict = await getDictionary(locale);
 
   return (

@@ -7,10 +7,12 @@ import { Projects } from "./components/Projects";
 import { Skills } from "./components/Skills";
 
 interface PageProps {
-  params: { locale: Locale };
+  params: Promise<{ locale: Locale }>;
 }
 
-export default async function Page({ params: { locale } }: PageProps) {
+export default async function Page({ params }: PageProps) {
+  const { locale } = await params;
+
   const dict = await getDictionary(locale);
 
   return (

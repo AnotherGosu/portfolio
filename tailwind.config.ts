@@ -9,8 +9,7 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
-        inter: ["var(--font-inter)"],
-        noto: ["var(--font-noto)"],
+        main: ["var(--font-main)"],
       },
     },
   },

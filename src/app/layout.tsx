@@ -16,7 +16,12 @@ export const metadata: Metadata = {
   description: "Maksim Dubinin - Web Developer",
   generator: "Next.js",
   applicationName: "Personal website",
-  keywords: ["Maksim Dubinin", "Personal Website", "Web Development"],
+  keywords: [
+    "Maksim Dubinin",
+    "Personal Website",
+    "Portfolio",
+    "Web Development",
+  ],
   authors: { name: "Maksim Dubinin", url: "https://www.anothergosu.com/" },
   creator: "Maksim Dubinin",
   publisher: "Maksim Dubinin",
@@ -35,7 +40,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
     <html lang="en">
       <body
         className={cn(
-          `relative antialiased ${font.variable} bg-neutral-800 bg-[radial-gradient(#262626_50%,_#0a0a0a)] font-main text-neutral-50`,
+          `relative antialiased ${font.className} font-main bg-neutral-800 bg-[radial-gradient(#262626_50%,_#0a0a0a)] text-neutral-50`,
         )}
       >
         {children}

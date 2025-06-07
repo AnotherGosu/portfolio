@@ -22,7 +22,6 @@ const config = {
     "@trivago/prettier-plugin-sort-imports",
     "prettier-plugin-tailwindcss",
   ],
-  pluginSearchDirs: false,
   printWidth: 80,
   proseWrap: "preserve",
   quoteProps: "consistent",

@@ -1,5 +1,6 @@
 import Image, { StaticImageData } from "next/image";
 
+import emoniqueImg from "@/images/emonique.png";
 import framImg from "@/images/fram.png";
 import hyeinImg from "@/images/hyein.png";
 
@@ -23,6 +24,13 @@ export const Projects = () => {
           description="Personal website"
           image={hyeinImg}
           href="https://www.hyeinnovate.com"
+        />
+
+        <Card
+          title="Emonique"
+          description="Art platform"
+          image={emoniqueImg}
+          href="https://emonique.com"
         />
 
         <Card

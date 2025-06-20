@@ -1,6 +1,6 @@
 @import "tailwindcss";
 
-@layer utilities {
+@layer components {
   .animated {
     @apply transition duration-500;
   }

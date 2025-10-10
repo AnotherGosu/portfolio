@@ -2,6 +2,8 @@
 
 @layer components {
   .animated {
-    @apply transition duration-500;
+    @apply transition duration-200 ease-in;
   }
 }
+
+@custom-variant hocus (&:hover, &:focus);

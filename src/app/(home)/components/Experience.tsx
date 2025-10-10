@@ -1,102 +1,52 @@
-import { cn } from "@/utils/cn";
+import { EXPERIENCE } from "@/constants/common";
 
-import { Article } from "@/components/common/Article";
+import { ExternalIcon } from "@/components/icons/External";
+
 import { Heading } from "@/components/common/Heading";
-import { Highlighter } from "@/components/common/Highlighter";
-import { SubHeading } from "@/components/common/SubHeading";
+import { Link } from "@/components/common/Link";
+
+import { Experience as ExperienceRecord } from "@/types/common";
 
 export const Experience = () => {
   return (
     <section>
       <Heading>Experience</Heading>
 
-      <div className={cn("flex flex-col gap-10", "sm:gap-20")}>
-        <Record
-          title="Full-Stack Web Developer"
-          subtitle="Chowis | South Korea, 2023 - Present"
-        >
-          <>
-            <li>
-              Developed a back-office web application using <b>Next.js</b> and{" "}
-              <b>Typescript</b>, providing inventory control, customer
-              management, statistics overview and other functionalities for the
-              internal team
-            </li>
-
-            <li>
-              Designed and developed RESTful APIs with <b>Nest.js</b>,{" "}
-              <b>TypeORM</b> and <b>PostgreSQL</b>
-            </li>
-
-            <li>
-              Ensured application stability by writing end-to-end and
-              integration tests with <b>Cypress</b>
-            </li>
-
-            <li>
-              Maintained the code base and managed CI/CD processes using{" "}
-              <b>GitHub</b> and <b>Vercel</b>
-            </li>
-          </>
-        </Record>
-
-        <Record
-          title="Front-End Web Developer"
-          subtitle="Emex | Russia, 2021 - 2022"
-        >
-          <>
-            <li>
-              Developed an e-commerce platform using <b>Next.js</b> and{" "}
-              <b>Typescript</b>, providing convenient browsing, searching and
-              checkout processes to customers
-            </li>
-
-            <li>
-              Implemented a smooth payment flow with <b>PayPal</b>, managing
-              complex checkout state with <b>Redux</b>
-            </li>
-
-            <li>
-              Ensured application stability by writing component unit tests with{" "}
-              <b>Jest</b> and <b>React Testing Library</b>
-            </li>
-
-            <li>
-              Managed deployment and testing workflows using <b>Azure DevOps</b>
-              , and tracked important metrics and issues with <b>PostHog</b>
-            </li>
-          </>
-        </Record>
+      <div className="flex flex-col gap-5 sm:gap-10">
+        {EXPERIENCE.map((record) => (
+          <Record
+            key={record.title}
+            {...record}
+          />
+        ))}
       </div>
     </section>
   );
 };
 
-const Record = ({
-  title,
-  subtitle,
-  children,
-}: React.PropsWithChildren & {
-  title: string;
-  subtitle: string;
-}) => {
+const Record = ({ title, subtitle, link, list }: ExperienceRecord) => {
   return (
-    <Highlighter>
-      <Article className={cn("p-6", "sm:p-8")}>
-        <div className="mb-8 border-b border-neutral-50 pb-2">
-          <SubHeading>{title}</SubHeading>
-          <p className={cn("text-sm", "md:text-base")}>{subtitle}</p>
+    <article className="p-6">
+      <div className="mb-8 flex flex-wrap items-center justify-between gap-4 border-b border-neutral-50 pb-4">
+        <div>
+          <h3 className="mb-2 text-2xl">{title}</h3>
+
+          <p className="text-sm">{subtitle}</p>
         </div>
 
-        <ul
-          className={cn(
-            "list-disc pl-4 text-sm !leading-loose",
-            "md:text-base",
-          )}
+        <Link
+          href={link}
+          target="_blank"
         >
-          {children}
-        </ul>
-      </Article>
-    </Highlighter>
+          Website <ExternalIcon />
+        </Link>
+      </div>
+
+      <ul className="flex list-disc flex-col gap-4 pl-4 text-sm sm:text-base">
+        {list.map((item, idx) => (
+          <li key={idx}>{item}</li>
+        ))}
+      </ul>
+    </article>
   );
 };

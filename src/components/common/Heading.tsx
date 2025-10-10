@@ -7,8 +7,8 @@ export const Heading = ({
   return (
     <h2
       className={cn(
-        "mb-8 text-center text-3xl font-bold uppercase tracking-wide",
-        "sm:text-4xl",
+        "mb-4 text-center text-3xl font-bold tracking-wide uppercase",
+        "sm:mb-8 sm:text-4xl",
         className,
       )}
       {...props}

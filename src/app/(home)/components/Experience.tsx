@@ -24,7 +24,13 @@ export const Experience = () => {
   );
 };
 
-const Record = ({ title, subtitle, link, list }: ExperienceRecord) => {
+const Record = ({
+  title,
+  subtitle,
+  link,
+  description,
+  list,
+}: ExperienceRecord) => {
   return (
     <article className="p-6">
       <div className="mb-8 flex flex-wrap items-center justify-between gap-4 border-b border-neutral-50 pb-4">
@@ -41,6 +47,8 @@ const Record = ({ title, subtitle, link, list }: ExperienceRecord) => {
           Website <ExternalIcon />
         </Link>
       </div>
+
+      <p className="mb-6">{description}</p>
 
       <ul className="flex list-disc flex-col gap-4 pl-4 text-sm sm:text-base">
         {list.map((item, idx) => (

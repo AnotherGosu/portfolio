@@ -13,6 +13,7 @@ export interface Experience {
   title: string;
   subtitle: string;
   link: string;
+  description: string;
   list: string[];
 }
 

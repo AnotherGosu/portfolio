@@ -36,25 +36,24 @@ export const EXPERIENCE: Experience[] = [
     title: "Full-Stack Web Developer",
     subtitle: "Choicetech | South Korea, 2023 - Present",
     link: "https://www.choicetech.kr/",
+    description:
+      "Worked closely with an international cross-functional team to develop a skin and hair analysis platform integrating image-based diagnostics and personalised product recommendations. Designed and implemented a back-office web application that supported the platform by managing inventory, customer data, and operational insights.",
     list: [
-      "Built a back-office web application with Next.js and TypeScript, enabling the internal team to manage inventory, customers, and business statistics efficiently",
-      "Designed and implemented RESTful APIs using NestJS, TypeORM, and PostgreSQL, ensuring reliable data flow and persistence",
-      "Optimised database queries and API responses for faster load times and smoother user experience",
-      "Improved SEO and discoverability by leveraging server-side rendering and incremental static regeneration",
-      "Increased application stability by writing comprehensive end-to-end and integration tests with Cypress",
-      "Maintained a clean and scalable codebase while managing CI/CD pipelines with GitHub Actions and deployments on Vercel",
+      "Built responsive and accessible user interfaces, ensuring a consistent and intuitive user experience across devices. Optimised component rendering and state management to improve performance and maintainability.",
+      "Designed and implemented RESTful APIs, ensuring reliable data flow and persistence. Optimised database queries and API responses for faster load times and smoother user experience.",
+      "Participated in code reviews and continuous improvement of development practices to enhance team efficiency. Contributed to technical documentation and system design discussions to ensure clarity and long-term maintainability.",
     ],
   },
   {
     title: "Front-End Web Developer",
     subtitle: "Emex | Russia, 2021 - 2022",
     link: "https://www.emex.msk.ru/",
+    description:
+      "Contributed to the development of a high-traffic e-commerce marketplace for auto parts and transportation goods, improving search performance, product discovery, and checkout workflows for thousands of customers.",
     list: [
-      "Developed an e-commerce platform using Next.js and Typescript, providing convenient browsing, searching and checkout processes to customers ",
-      "Built reusable, responsive UI components aligned with a design system to ensure consistency across the platform",
-      "Implemented a smooth payment flow with PayPal, managing complex checkout state with Redux",
-      "Ensured application stability by writing component unit tests with Jest and React Testing Library",
-      "Managed deployment and testing workflows using Azure DevOps, and tracked important metrics and issues with PostHog",
+      "Built reusable, responsive UI components aligned with a design system to ensure consistency across the platform. Ensured application stability by writing component unit tests.",
+      "Implemented a smooth payment flow, managing complex checkout state. Improved SEO and discoverability by leveraging server-side rendering and incremental static regeneration.",
+      "Managed deployment and testing workflows, and tracked important metrics and issues. Collaborated with developers and QA engineers to refine build processes and establish coding standards across the team.",
     ],
   },
 ];

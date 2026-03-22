@@ -9,7 +9,7 @@ export const PROJECTS: Project[] = [
     title: "Emonique",
     subtitle: "Art platform",
     stack: ["Next.js", "Tailwind", "Hygraph CMS", "Vercel"],
-    href: "https://emonique.com/",
+    href: "https://emonique.vercel.app/",
     image: emoniqueImg,
     theme: "white",
   },
